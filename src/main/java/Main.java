@@ -18,6 +18,7 @@ public class Main {
         String actualValueToLowerCase = strToUpperCase.toLowerCase();
         System.out.println(actualValueToLowerCase);
 
+        //Empty
         String strNotEmpty = "Java";
         String strEmpty = "";
         //System.out.println(strEmpty.isEmpty());
@@ -29,7 +30,7 @@ public class Main {
         char actualValueCharAt = strLenght.charAt(1);
         System.out.println(actualValueCharAt);
 
-        //toCharArray
+        //ToCharArray
         char[] actualValueToCharAt = strLenght.toCharArray();
 
         //Substring
@@ -55,7 +56,6 @@ public class Main {
         //Replace
         System.out.println("Replace");
         String strReplace = "Replace 88";
-
         String strReplaceFirst = strReplace.replace("a", "A");
         System.out.println(strReplaceFirst);
         String strReplaceSecond = strReplace.replace("pl", "PL");
@@ -94,7 +94,7 @@ public class Main {
         //StartsWith
         String strStartsWith = "Java 8";
         System.out.println(strStartsWith.startsWith("Ja"));
-        System.out.println(strStartsWith.startsWith("ava",1));
+        System.out.println(strStartsWith.startsWith("ava", 1));
 
         //EndsWith
         String strEndsWith = "Java 8";
@@ -116,7 +116,7 @@ public class Main {
 
         //GetBytes
         String strGetBytes = "Java";
-        byte[]actualValueGetBytes = strGetBytes.getBytes();
+        byte[] actualValueGetBytes = strGetBytes.getBytes();
 
     }
 }
