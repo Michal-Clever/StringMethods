@@ -114,6 +114,7 @@ public class Main {
         System.out.println(strCompareToFirst.compareTo(strCompareToThird));
         System.out.println(strCompareToFirst.compareToIgnoreCase(strCompareToFourth));
 
+
         //GetBytes
         String strGetBytes = "Java";
         byte[] actualValueGetBytes = strGetBytes.getBytes();
